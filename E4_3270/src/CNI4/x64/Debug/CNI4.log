@@ -1,0 +1,13 @@
+﻿  源.cpp
+c:\users\count zero\documents\github\e3270\e4_3270\src\cni4\源.cpp(143): warning C4473: “fprintf”: 没有为格式字符串传递足够的参数
+  c:\users\count zero\documents\github\e3270\e4_3270\src\cni4\源.cpp(143): note: 占位符和其参数预计 1 可变参数，但提供的却是 0 参数
+  c:\users\count zero\documents\github\e3270\e4_3270\src\cni4\源.cpp(143): note: 缺失的可变参数 1 为格式字符串“%s”所需
+源.obj : error LNK2019: 无法解析的外部符号 pcap_open_live，该符号在函数 main 中被引用
+源.obj : error LNK2019: 无法解析的外部符号 pcap_loop，该符号在函数 main 中被引用
+源.obj : error LNK2019: 无法解析的外部符号 pcap_setfilter，该符号在函数 main 中被引用
+源.obj : error LNK2019: 无法解析的外部符号 pcap_compile，该符号在函数 main 中被引用
+源.obj : error LNK2019: 无法解析的外部符号 pcap_datalink，该符号在函数 main 中被引用
+源.obj : error LNK2019: 无法解析的外部符号 pcap_findalldevs，该符号在函数 main 中被引用
+源.obj : error LNK2019: 无法解析的外部符号 pcap_freealldevs，该符号在函数 main 中被引用
+..\\Wpdpack\\lib\wpcap.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+C:\Users\Count Zero\Documents\GitHub\E3270\E4_3270\src\x64\Debug\CNI4.exe : fatal error LNK1120: 7 个无法解析的外部命令
